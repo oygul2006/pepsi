@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: #0025ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+  
+} 
+.logo img {
+    width: 90px;
+    position: relative;
+    left: 40px;
+}
+.nav a {
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+    right: 1100px;
+}
+button {
+    position: relative;
+    right: 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 8px;
+    width: 280px;
+    font-size: 220px;
+    background: #0025ff;
+    color: #fff;
+}
+img:hover {
+  width: 40%;
+}
+button:hover {
+    background-color: #fff;
+    color: #0025ff;
+ 
+}
+.img img {
+    width: 100%;
+}
+.body {
+    background: #000;
+    width: 100%;
+    height: 500px;
+}
+.body h1 {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+.body h3 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+.button1 {
+    font-size: 70px;
+    width: 600px;
+    height: 120px;
+    border: none;
+    position: relative;
+    left: 720px;
+    margin-top: 150px;
+    position: relative;
+    bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+.image img {
+    width: 100%;
+}
+.video video {
+    width: 100%;
+}
+.pepsi img {
+    width: 50%;
+}
+.pepsi {
+    background-color: #0025ff;
+    height: 1100px;
+    width: 100%;
+}
+ .pepsi .pepsi-icon i {
+   font-size: 50px;
+   color: #fff;
+}
+.pepsi .pepsi-icon P {
+    font-size: 30px;
+    color: #fff;
+ }
+ .pepsi-icon {
+ position: relative;
+ bottom: 700px;
+ position: relative;
+ left: 1350px;
+ display: flex;
+ }
+ button {
+    position: relative;
+    bottom: 700px;
+    position: relative;
+    left: 1200px;
+    background: #fff;
+    color: blue;
+    font-size: 90px;
+    width: 450px;
+    height: 120px;
+    border-radius: 50px;
+ }
+ .p1 {
+    font-size: 70px;
+    position: relative;
+    bottom: 700px;
+    position: relative;
+    left: 1200px;
+    color: #fff;
+ }
+ h4 {
+    font-size: 40px;
+    position: relative;
+    bottom: 700px;
+    position: relative;
+    left: 1200px;
+    color: #fff;
+ }
+ .btn8 {
+    font-size: 40px;
+    width: 150px;
+    height: 60px;
+    border-radius: 40px;
+    position: relative;
+    right: 30px;
+}
+.head {
+    display: flex;
+}
+h6 {
+    font-size: 25px;
+    position: relative;
+    bottom: 630px;
+    position: relative;
+    left:690px;
+    color: #fff;
+}
+.btn9 {
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    border-radius: 40px;
+    position: relative;
+    left: 280px;
+    margin-top: 160px;
+    background: blue;
+    color: white;
+}
+.rasm {
+    display: flex;
+    border: 5px solid blue;
+   position: relative;
+   bottom: 30px;
+   position: relative;
+   top: 30px;
+   
+}
+.stay {
+    background: #000;
+    height: 600px;
+}
+h5 {
+    color: blue;
+    font-size: 90px;
+    text-align: center;  
+}
+.wrapper {
+    display: flex;
+    background: blue; 
+    height: 400px;
+}
+.wrapper img {
+    position: relative;
+    top: 60px;
+}
+.wrapper-text h2 {
+   position: relative;
+   left: 50px;
+   color: #fff;
+   position: relative;
+   top: 80px;
+}
+.wrapper-icon i {
+    position: relative;
+    left: 950px;
+    color: #fff;
+    position: relative;
+    top: 150px;
+    font-size: 50px;
+    padding: 20px;
+ }
+     </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/PepsiLogo@3x.png" alt="">
+        </div>
+        <div class="nav">
+            <a href="#">VIEW PRODUCTS</a>
+            <a href="#">#PEPSI125</a>
+            <a href="#">CONTACT US</a>
+        </div>
+
+    </div>
+    <div class="img">
+
+    </div>
+    <div class="body">
+        <h1>CELEBRATING 125 YEARS <br> </h1>
+        <h3>OF PEPSI FOR 125 DAYS.</h3>
+            <button class="button1">FOLLOW ALONG</button>
+    </div>
+    <div class="image">
+        <img src="https://www.pepsi.com/en-us/refresh082123/images/PEP_125_MegaMix_KV_16x9@3x.png" alt="">
+    </div>
+    <div class="video">
+        <video src="https://www.pepsi.com/en-us/refresh082123/media/Titan_TR_Digital_30_PETD3091000H_CreativeX_sm.mp4"></video>
+    </div>
+    <div class="pepsi">
+        <img src="https://www.pepsi.com/en-us/uploads/images/apple-music/pzs-can-old@2x.png" alt="pepsi">
+        <div class="pepsi-icon">
+            <i class="fa-brands fa-apple"></i>
+            <p>Music</p>
+        </div>
+        <button>UNLOCK</button>
+        <p class="p1"><b>APPLE MUSIC</b></p>
+        <div class="head">
+            <h4>UP TO 3 MONTH</h4>
+            <button class="btn8">FREE</button>
+            <h6>AND A CHANCE TO WIN <b>EPIC SUMMER PRIZES</b></h6>
+            <button class="btn9">GET IT NOW!</button>
+        </div>  
+    </div>
+    <div class="stay">
+        <h5>STAY ON THE PULSE. FOLLOW PEPSI.</h5>
+        <div class="rasm">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_WCPZS_Cans.png" alt="">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Licensing.png" alt="">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Logo+Cans.png" alt="">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/PEP_TITAN_R34_LaunchAssets_Burger_EF_v1.png" alt="">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Photography_Overhead.png" alt="">
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/social/THREADS.png" alt="">
+        </div>
+    </div>
+    <div class="wrapper">
+<div class="warpper-img">
+    <img src="https://www.pepsi.com/en-us/refresh082123/images/PepsiLogo@3x.png" alt="">
+
+</div>      
+        <div class="wrapper-text">
+            <h2>CONTACT US</h2> 
+        <h2>TERMS & CONDITIONS</h2>
+        <h2>PRIVACY POLICY</h2>
+        <h2>COPYRIGHT</h2>
+        <h2>PRODUCT FACTS</h2>
+        <h2>STORE LOCATOR</h2>
+        <h2>SERVE PEPSI</h2>
+        <h2>ABOUT OUR ADS</h2>
+        <h2>CAREERS</h2>
+        </div>
+        <div class="wrapper-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    </div>
+</body>
+</html>    
